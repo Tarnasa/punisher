@@ -44,6 +44,9 @@ def replace_part_of_word(word_dict, word, puns):
                 for offset, pun_letters in enumerate(pun[1]):
                     partition[index + offset][0] = pun_letters
 
+        for pair_index, pair in enumerate(partition):
+            if pair[0] is None:
+                pair[0] = ''
         return ''.join(pair[0] for pair in partition)
     return word
 

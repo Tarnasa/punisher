@@ -3,7 +3,7 @@ __author__ = 'janickelsen'
 phoneme_to_symbol = {
     'AA': r'(ough|awe|au|aw|a|o)',  # dOg - Less rounded
     'AE': r'(a)',  # cAt
-    'AH': r'(ah|o|a|u|e|i|(?=l))',  # hUt
+    'AH': r'(ah|uh|o|a|u|e|i|(?=l))',  # hUt
     'AO': r'(ough|au|aw|a|o)',  # OUGHt. More rounded
     'AW': r'(ough|iao|ou|ow|au|ao)',  # cOW
     'AY': r'(igh|ay|uy|aj|ai|ei|ie|i|y)',  # hIde
